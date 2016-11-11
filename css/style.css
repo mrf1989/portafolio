@@ -221,7 +221,7 @@ input[type="submit"] {
         background: #678198;
         position: absolute;
         top: 91px;
-        right: 0px;
+        right: -120px;
         padding: 0 24px;
         transition: 0.4s;
     }
@@ -229,6 +229,6 @@ input[type="submit"] {
         align-items: flex-end;
     }
     .show-menu {
-        right: -120px;
+        right: 0px;
     }
 }
