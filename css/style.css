@@ -46,6 +46,9 @@ header img {
     bottom: 0;
     padding-bottom: 16px;
 }
+.hidden-menu {
+    display: none;
+}
 .wrapper {
     margin-left: 366px;
 }
@@ -185,10 +188,13 @@ input[type="submit"] {
 }
 @media screen and (max-width: 550px) {
     .wrapper {
-        margin-top: 150px;
+        margin-top: 80px;
     }
     header {
         padding: 10px 16px;
+    }
+    header h2 {
+        font-size: 18px;
     }
     header img {
         max-width: 60px;
@@ -196,5 +202,33 @@ input[type="submit"] {
     }
     .redes {
         font-size: 24px;
+    }
+    .hidden-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .burger-menu {
+        background: white;
+        width: 20px;
+        height: 5px;
+        margin-bottom: 3px;
+    }
+    .burger-menu:last-child {
+        margin-bottom: 0px;
+    }
+    nav {
+        background: #678198;
+        position: absolute;
+        top: 91px;
+        right: -120px;
+        padding: 0 24px;
+        transition: 0.4s;
+    }
+    ul {
+        align-items: flex-end;
+    }
+    .show-menu {
+        right: 0px;
     }
 }

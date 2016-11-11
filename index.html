@@ -21,13 +21,18 @@
                 <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-github-square" aria-hidden="true"></i></a>
             </div>
-            <nav>
+            <nav id="menu">
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portafolio">Portafolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="hidden-menu" id="hidden-menu">
+                <span class="burger-menu"></span>
+                <span class="burger-menu"></span>
+                <span class="burger-menu"></span>
+            </div>
             <p class="firma">Written and coded by Mario Ruano</p>
         </header> <!-- end header main menu -->
         <div class="container">
@@ -63,5 +68,13 @@
             </section>
         </div>
     </div>
+    <script type="text/javascript">
+        var boton = document.getElementById("hidden-menu");
+        var menu = document.getElementById("menu");
+        boton.addEventListener("click", mostrarMenu);
+        function mostrarMenu() {
+            menu.classList.toggle("show-menu");
+        }
+    </script>
 </body>
 </html>
