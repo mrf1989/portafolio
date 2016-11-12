@@ -70,8 +70,10 @@ header img {
     max-width: 400px;
     margin: auto;
     border: 5px solid #1a1c29;
-    border-radius: 15px;
     margin-bottom: 10px;
+}
+.bordered-photo {
+    box-sizing: border-box;
 }
 #about {
     display: flex;
@@ -200,6 +202,12 @@ input[type="submit"] {
         max-width: 60px;
         border: 3px solid white;
     }
+    .container {
+        font-size: 1em;
+    }
+    .container h3 {
+        font-size: 20px;
+    }
     .redes {
         font-size: 24px;
     }
@@ -230,5 +238,22 @@ input[type="submit"] {
     }
     .show-menu {
         right: 0px;
+    }
+    #about,
+    #portafolio,
+    #contact {
+        margin-bottom: 40px;
+    }
+    #about,
+    #portafolio {
+        border-bottom: 1px solid #678198;
+    }
+    .proyectos img {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+    input,
+    textarea {
+        font-size: 16px;
     }
 }
