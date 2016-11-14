@@ -173,13 +173,15 @@ input[type="submit"] {
         transition: 0.5s;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .proyectos {
         flex-direction: column;
         align-items: center;
     }
     .proyectos img {
         max-width: 400px;
+        margin-top: 0;
+        margin-bottom: 24px;
     }
     .datos {
         flex-direction: column;
@@ -187,8 +189,6 @@ input[type="submit"] {
     .datos input {
         width: auto;
     }
-}
-@media screen and (max-width: 550px) {
     .wrapper {
         margin-top: 80px;
     }
@@ -247,10 +247,6 @@ input[type="submit"] {
     #about,
     #portafolio {
         border-bottom: 1px solid #678198;
-    }
-    .proyectos img {
-        margin-top: 0;
-        margin-bottom: 24px;
     }
     input,
     textarea {
