@@ -10,7 +10,7 @@ if ($_POST["nombre"] && $_POST["email"] != "") {
     echo utf8_decode(utf8_decode("Su mensaje ha sido enviado correctamente."));
 } else {
     if ($_POST["nombre"] == "" || $_POST["email"] == "" || $_POST["mensaje"] == "") {
-        echo utf8_decode("Todos los campos de texto son obligatorios");
+        echo utf8_decode("Todos los campos de texto son obligatorios\n" . "<a href='index.html'>Regresar al portafolio</a>");
         exit;
     }
 }
