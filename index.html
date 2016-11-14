@@ -51,15 +51,15 @@
             <section id="contact">
                 <h3># Contacto</h3>
                 <div class="formulario">
-                    <form action="">
+                    <form id="contact-form" action="formulario.php" method="post">
                         <div class="datos">
-                            <input type="text" name="Nombre" placeholder="Nombre">
-                            <input type="email" name="Email" placeholder="Email">
+                            <input type="text" name="nombre" placeholder="Nombre">
+                            <input type="email" name="email" placeholder="Email">
                         </div>
                         <div class="mensaje">
-                            <input type="text" name="Asunto" placeholder="Asunto">
-                            <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje..."></textarea>
-                            <input type="submit">
+                            <input type="text" name="asunto" placeholder="Asunto">
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje..."></textarea>
+                            <input type="submit" name="enviar">
                         </div>
                     </form>
                 </div>
