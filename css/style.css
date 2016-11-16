@@ -242,6 +242,8 @@ input[type="submit"] {
     #about,
     #portafolio,
     #contact {
+        padding-top: 95px;
+        margin-top: -95px;
         margin-bottom: 40px;
     }
     #about,
