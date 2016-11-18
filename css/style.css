@@ -159,6 +159,13 @@ input[type="submit"] {
     .firma {
         visibility: hidden;
     }
+    #about,
+    #portafolio,
+    #contact {
+        padding-top: 190px;
+        margin-top: -190px;
+        margin-bottom: 40px;
+    }
     .proyectos {
         display: flex;
         flex-direction: row;
